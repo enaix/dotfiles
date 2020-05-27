@@ -1,0 +1,47 @@
+[global_config]
+  borderless = True
+  smart_copy = False
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#7c6f64"
+    font = Source Code Pro Semi-Bold 11
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 1000
+    scrollback_infinite = True
+    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    use_system_font = False
+  [[glassy]]
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Semi-Bold 11
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+  [[earthy]]
+    background_color = "#fbeec1"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#433c36"
+    font = Source Code Pro Semi-Bold 11
+    foreground_color = "#433c36"
+    show_titlebar = False
+    palette = "#282a2e:#614e37:#575c28:#594737:#314d5c:#135a81:#41615e:#25282b:#373b41:#776044:#6c713e:#725740:#416477:#1871a3:#5d7f7a:#3c4044"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
