@@ -1,0 +1,2 @@
+# dotfiles
+BSPWM Gruvbox rice
